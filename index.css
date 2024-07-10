@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+}
+.bg-container{
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    height: 50px;
+    width: 80px;
+}
+.navbar-container{
+    background-image: linear-gradient(to right, black, grey);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 25px;
+}
+.details{
+    display: flex;
+    flex-direction: row;
+    
+}
+.parara{
+    margin-right: 20px;
+}
+
+.image{
+    height: 200px;
+    width: 700px;
+}
+.second-container{
+    align-self: center;
+    width: 80%;
+    max-width: 400px;
+}
+.paragraph{
+    align-self: flex-end;
+    color: white;
+}
+.end-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: flex-start;
+    min-height: 90vh;
+}
